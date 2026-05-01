@@ -38,15 +38,6 @@ namespace Testplate.Menu
             networkTab.AddButton(new MenuButton("Disconnect", (Action)(() => PhotonNetwork.Disconnect())));
             networkTab.AddButton(new MenuButton("Join Random", (Action)(() => PhotonNetwork.JoinRandomRoom())));
             Tabs.Add(networkTab);
-
-            var visualTab = new MenuTab("Visual");
-            visualTab.AddButton(new MenuButton("Blue Fog", (Action)(() => {
-                RenderSettings.fogColor = Color.blue;
-                RenderSettings.fog = true;
-                RenderSettings.fogMode = FogMode.Linear;
-                RenderSettings.fogStartDistance = 0f;
-                RenderSettings.fogEndDistance = 100f;
-            }), (Action)(() => RenderSettings.fog = false), (Func<bool>)(() => RenderSettings.fog)));
             Tabs.Add(visualTab);
         }
 
