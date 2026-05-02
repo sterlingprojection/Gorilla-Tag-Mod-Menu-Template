@@ -25,7 +25,6 @@ namespace Testplate.Menu
         private static bool superJump = false;
         private static bool speedBoost = false;
         private static bool fly = false;
-        private static bool Tentacale = false;
         private static float flySpeed = 15f;
 
         private static bool testGun = false;
@@ -59,7 +58,6 @@ namespace Testplate.Menu
 
             var opTab = new MenuTab("OP");
             opTab.AddButton(new MenuButton("Test Gun", (Action)(() => testGun = true), (Action)(() => testGun = false), (Func<bool>)(() => testGun)));
-            opTab.AddButton(new MenuButton("Tentacle Abuse (M)", (Action)(() => Tentacale = true), (Action)(() => Tentacale = false), (Func<bool>)(() => Tentacale)));
             Tabs.Add(opTab);
         }
         
