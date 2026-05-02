@@ -2,6 +2,10 @@
 
 A high-performance, modular mod menu template for Gorilla Tag. This template is designed for developers who want a clean, comment-free codebase with advanced UI capabilities and robust networking utilities.
 
+<img width="1320" height="1320" alt="20260502000203_1" src="https://github.com/user-attachments/assets/cffa5a83-c094-4694-b07c-765e74644d54" />
+
+<img width="1320" height="1320" alt="20260501224917_1" src="https://github.com/user-attachments/assets/f6d958e0-1063-4a3e-b587-0d62761dd2b6" />
+
 ## Key Features
 
 *   **Advanced UI System**: A fully functional tabbed menu with support for toggles, buttons, and real-time controllable sliders.
