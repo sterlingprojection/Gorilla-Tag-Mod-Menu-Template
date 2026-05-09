@@ -50,7 +50,7 @@ Tabs.Add(myTab);
 
 ## Credits
 
-*   **Template Developer**: Sterling
+*   **Template Developer**: Testplate
 *   **Utilities Reference**: Seralyth-Menu (RigUtilities & VRRigExtensions)
 
 ## License
